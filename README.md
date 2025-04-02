@@ -43,4 +43,4 @@ System.out.println("Custo do aluguel: " + custo);
 // Aluguel de 5 dias com devolução atrasada (8 dias de uso)
 veiculo.setDiasAlugados(5);
 custo = veiculo.calcularCusto(8); // Custo com multa de 20%
-System.out.println("Custo do aluguel: " + custo);```
+System.out.println("Custo do aluguel: " + custo);
