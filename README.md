@@ -19,6 +19,7 @@ Os testes unitários foram escritos utilizando JUnit 5. Você precisará de um a
 Alternativamente, você pode usar Maven ou Gradle para gerenciar as dependências e executar os testes via linha de comando.
 
 - Exemplo de Uso
+'''
 Veiculo veiculo = new Veiculo();
 veiculo.setModelo("Sedan");
 
@@ -42,4 +43,4 @@ System.out.println("Custo do aluguel: " + custo);
 // Aluguel de 5 dias com devolução atrasada (8 dias de uso)
 veiculo.setDiasAlugados(5);
 custo = veiculo.calcularCusto(8); // Custo com multa de 20%
-System.out.println("Custo do aluguel: " + custo);
+System.out.println("Custo do aluguel: " + custo);'''
